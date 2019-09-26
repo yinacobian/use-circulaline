@@ -16,7 +16,6 @@ cat genomes/* | grep '>'
 
 each genome name should be in a single line
 
-acobian@drogon:~/circulaline/circulaline$ cat AchromophagesLiterature/* | grep '>'
 >83-24
 >Axy06
 >Axy14
