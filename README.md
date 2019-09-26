@@ -38,3 +38,6 @@ $ python3 circulaline.py achromo locations.tsv > sorta_lined_up.fasta
 ##Example for Achromophages
 
 cat AchromophagesLiterature/*.fasta | blastx -subject terminase.faa -outfmt 6 -max_hsps 1 | python3 get_location.py > AchromophagesLiterature/locations.tsv
+
+python3 circulaline.py AchromophagesLiterature/ AchromophagesLiterature/locations.tsv > AchromophagesLiterature/sorta_lined_up.fasta
+
