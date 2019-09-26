@@ -16,6 +16,20 @@ cat genomes/* | grep '>'
 
 each genome name should be in a single line
 
+acobian@drogon:~/circulaline/circulaline$ cat AchromophagesLiterature/* | grep '>'
+>83-24
+>Axy06
+>Axy14
+>Axy16
+>JWAlpha
+>JWDelta
+>JWF
+>JWX
+>phiAxp-1
+>phiAxp-2
+>phiAxp-3
+
+
 5. Make sure you have a gene where you want the sequences to begin, in this case is the terminase. 
 
 6. 
