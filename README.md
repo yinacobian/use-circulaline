@@ -37,6 +37,8 @@ $ python3 circulaline.py achromo locations.tsv > sorta_lined_up.fasta
 
 ##Example for Achromophages
 
+ls AchromophagesLiterature/ | xargs -i dos2unix AchromophagesLiterature/{}
+
 perl -p -i -e 's/ /_/g' AchromophagesLiterature/*
 
 
