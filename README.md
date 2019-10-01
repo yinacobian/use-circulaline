@@ -46,3 +46,6 @@ cat AchromophagesLiterature/*.fasta | blastx -subject terminase.faa -outfmt 6 -m
 
 python3 circulaline.py AchromophagesLiterature/ AchromophagesLiterature/locations.tsv > AchromophagesLiterature/sorta_lined_up.fasta
 
+10. Split the multifasta:
+
+cat french-sorta_lined_up.fasta | awk '{if (substr($0, 1, 1)==">") {filename=(substr($0,2) ".fasta")} print $0 > filename}'
